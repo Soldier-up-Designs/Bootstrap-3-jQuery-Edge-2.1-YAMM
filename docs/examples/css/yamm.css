@@ -1,0 +1,81 @@
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+ 
+ /*
+ 
+ ////YAMM NAVBAR////
+ 
+ */
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+	position: static;
+}
+.yamm .container {
+	position: relative;
+}
+
+.yamm .container-fluid {
+	position: relative;
+	padding-left:2%;
+	padding-right:2%;
+}
+
+.yamm .dropdown-menu {
+	left: auto;
+}
+
+.yamm  .yamm-mega > .dropdown-menu {
+	left: 0;
+}
+
+.yamm .yamm-content {
+	padding: 20px 30px;
+}
+
+.yamm .dropdown.yamm-fw .dropdown-menu{
+	  left: 0;
+	  right: 0;
+}
+
+.yamm .dropdown .menu-large {
+	left: auto;
+	margin-left:0;
+	margin-right:0;
+	padding-left:-2%;
+	padding-right:-2%;
+	width:100%;
+	height:auto;
+}
+
+body{
+	font-size:150%;
+	overflow-x:hidden;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+foooter{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #a1a1a1;;
+}
+

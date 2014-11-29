@@ -1,0 +1,424 @@
+/*!
+ * Yamm!3
+ * Yet another megamenu for Bootstrap
+ * http://geedmo.github.com/yamm3
+ *
+ * Demo styles
+ */
+
+/* layout */
+body {
+  padding-bottom: 40px;
+  color: #666;
+}
+pre { margin: 0; padding: 10px 20px !important;}
+
+footer {
+  margin-top: 200px;
+}
+
+/* --------------------------------------------------------------------------------
+---------------------------------- NAVBAR -----------------------------------------
+-------------------------------------------------------------------------------- */
+
+.nav-pills > li .active > a.disabled, .nav-pills > li .active > a.disabled:hover, .nav-pills > li .active > a.disabled:focus {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #eeeeee;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+
+.navbar-custom {
+	box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    background:rgba(255, 255, 255, 1);
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+	margin-top:0;
+	position:fixed;
+	top:-2.4%;
+}
+
+.navbar-toggle {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    margin-right: 20px;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-weight: 700;
+	width:100%;
+	font-size:140%;
+	margin-right:15%;
+}
+
+.navbar-brand img{
+	margin-top:-5px;
+	height:4%;
+	min-width:30px;
+	width:4%;
+	min-height:30px;	
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline-style: none;
+    outline-width: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    color: #888888;
+    font-size: 16px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
+    outline-style: none;
+    outline-width: 0;
+}
+
+.navbar-custom a {
+    color: #888888;
+	font-weight:bold;
+}
+
+
+
+.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .nav li a.active {
+	background:none;
+	transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+/* To Dropdown navbar dropdown on hover */
+.navbar-nav > li:hover > .dropdown-menu {
+    display: block;
+	background:rgba(33,33,33, 0.7); /* remove background to make transparent*/
+	box-shadow:none; /*get rid of shadow to make transparent*/
+	margin-top:0px; /*to adjust padding of dropdown in respect to navbar bottom */
+}
+
+.dropdown-menu li > a{
+	font-weight:700;
+	color:#ffffff;
+}
+
+.navbar-nav > li:hover > .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
+	background:none;
+	color:#ff3300;
+	margin-left:2px;
+	margin-right:15px;
+	border-radius: 0px;
+	transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.main{
+	margin-top:5%; /* --Use Percent for fluid and responsive layouts-- */
+}
+
+.container, .jumbotron .container { width: auto; max-width: 1170px; }
+
+.jumbotron {
+  margin: 60px 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+  .jumbotron.intro {
+    margin-top: 0;
+  }
+
+  .jumbotron .navbar {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+.mega-list-item{
+	color:#ff0000;
+}
+
+.mega-list-item p{
+	color:#ff9900;
+}
+
+/* menu styes */
+.list-unstyled,
+.list-unstyled ul { min-width: 120px }
+
+@media ( min-width: 767px ) {
+  .panel-group { width: 400px; }
+  .thumbnail { margin: 0; }
+}
+
+/* Grid demo styles */
+.grid-demo {
+  padding: 10px 30px;
+}
+
+.grid-demo [class*="col-"] {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1em;
+	text-align: center;
+	line-height: 2;
+	background-color: #e5e1ea;
+	border: 1px solid #d1d1d1;
+}
+
+@media (min-width: 767px) {
+	.navbar-custom {
+		margin-top: 20px;
+	}
+	.navbar-custom .container, .navbar-custom .container-fluid {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.navbar-custom .navbar {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.navbar-custom .navbar {
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+	.featurette-heading {
+		font-size: 50px;
+	}
+	.keyword-text {
+		margin-bottom: 20px;
+	}
+	.navbar-inner {
+		margin-bottom: -20px;
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-top: -20px;
+	}
+	.carousel-caption h1 {
+		font-size: 30px;
+	}
+	.carousel-caption .lead, .carousel-caption .btn {
+		font-size: 18px;
+	}
+	.marketing .span4 + .span4 {
+		margin-top: 40px;
+	}
+	.featurette-heading {
+		font-size: 30px;
+	}
+	.featurette .lead {
+		font-size: 18px;
+		line-height: 1.5;
+	}
+}
+
+@-moz-document url-prefix(""){
+	fieldset {
+		display: table-cell;
+	}
+}
+
+.search-form{
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 0;
+	margin-right: 10px;
+	max-width: 620px;
+	width: auto;
+}
+
+.search-btn{
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 30px;
+	cursor: pointer;
+}
+
+.center{
+	float: none;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.list-inline {
+	display: inline-block;
+}
+
+.margin-min{
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+}
+
+.selected img{
+	opacity: 0.5;
+}
+
+a .selected img:hover{
+	opacity: 0.5;
+}
+
+a img:hover{
+    opacity: 0.4;
+}
+
+li {
+	display: list-item;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
+}
+
+
+span .angularjs{
+	padding-left:2px;
+	padding-right:2px;
+}
+
+span .radio-label{
+	padding-left:2px;
+	padding-right:2px;
+}*/
+
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+
+.show-grid {
+    margin-bottom: 15px;
+}
+
+/* MEGA MENU STYLE
+********************************/
+/* To Dropdown navbar dropdown on hover */
+.navbar-nav > li:hover > .dropdown-menu {
+    display: block;
+	background:#3e3e3e; /* remove background to make transparent*/
+	box-shadow:none; /*get rid of shadow to make transparent*/
+	margin-top:0px; /*to adjust padding of dropdown in respect to navbar bottom */
+}
+.menu-large {
+  position: static !important;
+}
+.megamenu{
+  padding: 20px 0px;
+  width:100%;
+}
+
+.megamenu> li > ul {
+  padding: 0;
+  margin: 0;
+  background:#3e3e3e;
+  min-width:400;
+  float:left;
+}
+
+.megamenu> li > ul > li {
+  list-style: none;
+}
+
+.megamenu> li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #ffffff;
+  white-space: normal;
+}
+
+.megamenu> li ul > li > a:hover,
+.megamenu> li ul > li > a:focus {
+  text-decoration: none;
+  color: #ff0000;
+  background-color: #f5f5f5;
+  font-weight:700;
+}
+.megamenu.disabled > a,
+.megamenu.disabled > a:hover,
+.megamenu.disabled > a:focus {
+  color: #999999;
+}
+.megamenu.disabled > a:hover,
+.megamenu.disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+li.dropdown-header.megaheader {
+  color: #ff3300;
+  font-size: 100%;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .megamenu{
+    margin-left: 0 ;
+    margin-right: 0 ;
+  }
+  .megamenu> li {
+    margin-bottom: 30px;
+  }
+  .megamenu> li:last-child {
+    margin-bottom: 0;
+  }
+  .megamenu.dropdown-header {
+    padding: 3px 15px !important;
+
+  }
+  .navbar-nav .open .dropdown-menu .dropdown-header{
+	color:#fff;
+  }
+}
+
