@@ -8,8 +8,7 @@
 </a>
 <hr>
 </div>
-<b>Bootstrap Lightbox and Mega-Menu for Bootstrap 3.3.1 & Jquery 2.1.1</b> utilizes Bootstraps modal plugin to implement a lightbox gallery and Custom CSS to Display the Mega-Menu Dropsdowns - Lightbox forked from AshleyDW and Dropdown Mega-Menu forked from YAMM (Yet Another Mega Menu) Geedmo's - YAMM3
-
+<hr>
 <b>simple Install</b>
 <em>Unzip package in htdocs server folder(XAMPP)</em>
 
